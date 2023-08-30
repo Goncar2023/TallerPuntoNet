@@ -39,6 +39,12 @@ Module Module1
 
         MsgBox("El día es " & diaPalabra)
 
+        'Número RANDOM
+        Dim random As New Random()
+        Dim aleatorio As Integer = random.Next(1, 4)
+        'Genera un número aleatorio entre el 1 y el 3
+        MsgBox("El N° aleatorio es: " & aleatorio & " ")
+
         ' Estructuras de Control de Bucles
         ' El bucle "For" se utiliza para ejecutar un bloque de código un número específico de veces. 
 
