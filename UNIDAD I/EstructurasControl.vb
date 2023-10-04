@@ -76,7 +76,13 @@ Module Module1
         'Escribe un programa que solicite al usuario adivinar un número
         'secreto entre 1 y 100. El programa debe dar pistas si el número ingresado es mayor o
         'menor que el número secreto, y mostrar cuántos intentos tomó adivinar.
+        '
+        Dim numero As Integer
 
+        Do
+            Console.Write("Ingresa un número positivo: ")
+            numero = Integer.Parse(Console.ReadLine())
+        Loop While numero <= 0
     End Sub
 
 End Module

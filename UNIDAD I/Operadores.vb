@@ -1,6 +1,14 @@
 Module Module1
     ' COMENTAR CTRL + K - CTRL + C // DESCOMENTAR CTRL + K - CTRL + U
     Sub Main()
+        ' Operadores Aritméticos
+        ' + Suma
+        ' - Resta
+        ' * Multiplicación
+        ' / División
+        ' \ División con resultado entero -> ALT + 92
+        ' Mod Módulo - Resto de la división
+
         ' Operadores de Comparación
         ' = Comprueba si dos valores son iguales.
         ' <>: Comprueba si dos valores no son iguales.
@@ -27,6 +35,26 @@ Module Module1
         Dim puedeConducir As Boolean = edad >= 18 And licencia 
         MsgBox("¿Puede conducir? "&puedeConducir)
 
+        'Operadores de Asignación
+        ' = Para asignar un valor a una variable
+        Dim num as Integer
+        num = 18
+
+        'Operador de asignación con suma
+        Dim resultado as Integer
+        resultado += 5 ' Equivale a  resultado = resultado + 5
+
+        'Operador de asignación con resta
+        dim total as Integer
+        total -= 10 'Equivale a  total = total - 10
+
+        'Operador de Asignación con Multiplicación
+        Dim cantidad As Integer
+        cantidad *= 2 'Equivale a  cantidad = cantidad * 2
+
+        'Operador de Asignación con División
+        Dim result As Single
+        result /= 5.0 'Equivale a  result = result / 5.0
     End Sub
 
 End Module
